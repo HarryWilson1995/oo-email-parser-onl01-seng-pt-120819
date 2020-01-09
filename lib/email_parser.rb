@@ -13,7 +13,7 @@ class EmailAddressParser
   
   def parse 
     @csv_emails.each do |email|
-      email.flatten.uniq 
+      email.
   end 
   
 end 
