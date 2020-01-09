@@ -12,7 +12,7 @@ class EmailAddressParser
   end 
   
   def parse 
-    @csv_emails.each do |email|
+    @csv_emails.split.collect do |email|
       email.
   end 
   
