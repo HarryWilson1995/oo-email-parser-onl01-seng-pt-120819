@@ -12,7 +12,7 @@ class EmailAddressParser
   end 
   
   def parse 
-    csv.split(",")
+    @csv_emails.split(",")
   end 
   
 end 
